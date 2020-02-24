@@ -40,6 +40,7 @@
                                         <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="btnNext:" destination="EuS-NF-ynp" eventType="touchUpInside" id="sO3-9r-ZiV"/>
+                                            <segue destination="Ewx-Ye-osA" kind="show" id="RlH-4c-Vsy"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -63,7 +64,7 @@
                         <viewControllerLayoutGuide type="bottom" id="1ez-ak-xzv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="k46-jF-AiH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     </view>
@@ -82,11 +83,11 @@
                         <viewControllerLayoutGuide type="bottom" id="ZSY-5d-FBC"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="a2I-Ep-Xks">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BJb-WA-CuY">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="238"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="231"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hJN-6B-zRl">
@@ -229,6 +230,7 @@
         <scene sceneID="XEM-2c-fdI">
             <objects>
                 <tabBarController id="Ewx-Ye-osA" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="8Qh-4Q-3Jg"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CT7-sG-QNs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -254,7 +256,7 @@
                         <viewControllerLayoutGuide type="bottom" id="R6q-i9-Vkd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="mw6-2Z-Sdj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     </view>
@@ -273,7 +275,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Dyv-I8-agt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LvU-TH-Aoc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     </view>
