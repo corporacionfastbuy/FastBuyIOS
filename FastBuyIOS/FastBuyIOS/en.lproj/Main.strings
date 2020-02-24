@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "RESTAURANTES"; ObjectID = "68E-Fd-3Cw"; */
+"68E-Fd-3Cw.text" = "RESTAURANTES";
+
+/* Class = "UILabel"; text = "MARKETS"; ObjectID = "8BH-lh-bgA"; */
+"8BH-lh-bgA.text" = "MARKETS";
+
+/* Class = "UILabel"; text = "Promociones"; ObjectID = "9lV-O4-zhg"; */
+"9lV-O4-zhg.text" = "Promociones";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "DX2-4y-jE6"; */
+"DX2-4y-jE6.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Elige una subcategoría"; ObjectID = "Isq-rS-oeM"; */
+"Isq-rS-oeM.title" = "Elige una subcategoría";
+
+/* Class = "UILabel"; text = "ENCARGOS"; ObjectID = "Slf-XQ-2OF"; */
+"Slf-XQ-2OF.text" = "ENCARGOS";
+
+/* Class = "UILabel"; text = "Escoge una ciudad en la que FastBuy brinda servicio"; ObjectID = "mEY-tX-wqk"; */
+"mEY-tX-wqk.text" = "Escoge una ciudad en la que FastBuy brinda servicio";
+
+/* Class = "UILabel"; text = "PIDE LO QUE QUIERAS"; ObjectID = "oiS-Hb-rBr"; */
+"oiS-Hb-rBr.text" = "PIDE LO QUE QUIERAS";
+
+/* Class = "UILabel"; text = "Selecciona uno de nuestros servicios para empezar a usar FastBuy"; ObjectID = "t1M-Fu-xQS"; */
+"t1M-Fu-xQS.text" = "Selecciona uno de nuestros servicios para empezar a usar FastBuy";
