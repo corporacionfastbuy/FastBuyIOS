@@ -8,22 +8,72 @@
 
 /* Begin PBXBuildFile section */
 		074AF0F823FD7F0B00EDF0E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074AF0F723FD7F0B00EDF0E9 /* AppDelegate.swift */; };
-		074AF0FA23FD7F0B00EDF0E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074AF0F923FD7F0B00EDF0E9 /* ViewController.swift */; };
 		074AF0FD23FD7F0B00EDF0E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074AF0FB23FD7F0B00EDF0E9 /* Main.storyboard */; };
 		074AF0FF23FD7F0B00EDF0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074AF0FE23FD7F0B00EDF0E9 /* Assets.xcassets */; };
-		074AF10223FD7F0B00EDF0E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074AF10023FD7F0B00EDF0E9 /* LaunchScreen.storyboard */; };
-		A073F99924004D61007695FB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A073F99824004D60007695FB /* CollectionViewCell.swift */; };
+		A0F79A00240F08D800762678 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F799FF240F08D800762678 /* Common.swift */; };
+		A0F79A02240F097C00762678 /* GestorDeArchivos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79A01240F097C00762678 /* GestorDeArchivos.swift */; };
+		A0F79A04240F09C500762678 /* MediaCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79A03240F09C500762678 /* MediaCache.swift */; };
+		A0F79A06240F09FF00762678 /* WebDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79A05240F09FF00762678 /* WebDataController.swift */; };
+		A0F79A08240F0ABC00762678 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79A07240F0ABC00762678 /* MainNavigationController.swift */; };
+		A0F79A0A240F0B3000762678 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79A09240F0B3000762678 /* InicioViewController.swift */; };
+		A0F79A0C240F0B7500762678 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79A0B240F0B7500762678 /* LoginViewController.swift */; };
+		A0F79A0F240F0C5800762678 /* ListaNegociosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79A0E240F0C5800762678 /* ListaNegociosViewController.swift */; };
+		A0F79A11240F0DF500762678 /* ListaCategoriasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79A10240F0DF500762678 /* ListaCategoriasViewController.swift */; };
+		A0F79A13240F0F8000762678 /* ListaProductosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79A12240F0F8000762678 /* ListaProductosViewController.swift */; };
+		A0F79A15240F0FC600762678 /* CarritoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79A14240F0FC600762678 /* CarritoViewController.swift */; };
+		A0F79A19240F108B00762678 /* DatosContactoFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79A18240F108B00762678 /* DatosContactoFormViewController.swift */; };
+		A0F79A2B240F126D00762678 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F79A27240F126B00762678 /* location.png */; };
+		A0F79A2C240F126D00762678 /* imark.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F79A28240F126C00762678 /* imark.png */; };
+		A0F79A2D240F126D00762678 /* logo-fastbuy.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F79A29240F126C00762678 /* logo-fastbuy.png */; };
+		A0F79A2E240F126D00762678 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F79A2A240F126C00762678 /* back.png */; };
+		A0F79A33240F129900762678 /* shop.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F79A2F240F129700762678 /* shop.png */; };
+		A0F79A34240F129900762678 /* serv-logo-google-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F79A30240F129700762678 /* serv-logo-google-plus.png */; };
+		A0F79A35240F129900762678 /* RifficFree-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F79A31240F129800762678 /* RifficFree-Bold.ttf */; };
+		A0F79A36240F129900762678 /* serv-logo-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F79A32240F129800762678 /* serv-logo-facebook.png */; };
+		A0F79A38240FEAE900762678 /* OpcionLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79A37240FEAE900762678 /* OpcionLoginViewController.swift */; };
+		A0F79A3A240FEF5200762678 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79A39240FEF5200762678 /* SplashViewController.swift */; };
+		A0F79A3E2410829D00762678 /* FASTBUY.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F79A3B2410829800762678 /* FASTBUY.png */; };
+		A0F79A3F2410829D00762678 /* GOOGLE.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F79A3C2410829900762678 /* GOOGLE.png */; };
+		A0F79A402410829D00762678 /* FACEBOOK.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F79A3D2410829B00762678 /* FACEBOOK.png */; };
+		A0F79A422411360600762678 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79A412411360600762678 /* Reachability.swift */; };
+		A0F79A442411528400762678 /* IngresaNumeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79A432411528400762678 /* IngresaNumeroViewController.swift */; };
+		A0F79A46241152ED00762678 /* NewUsuarioFastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79A45241152EC00762678 /* NewUsuarioFastViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		074AF0F423FD7F0B00EDF0E9 /* FastBuyIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastBuyIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		074AF0F423FD7F0B00EDF0E9 /* Fast Buy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fast Buy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		074AF0F723FD7F0B00EDF0E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		074AF0F923FD7F0B00EDF0E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		074AF0FC23FD7F0B00EDF0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		074AF0FE23FD7F0B00EDF0E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		074AF10123FD7F0B00EDF0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		074AF10323FD7F0B00EDF0E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A073F99824004D60007695FB /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A0F799FF240F08D800762678 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		A0F79A01240F097C00762678 /* GestorDeArchivos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestorDeArchivos.swift; sourceTree = "<group>"; };
+		A0F79A03240F09C500762678 /* MediaCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCache.swift; sourceTree = "<group>"; };
+		A0F79A05240F09FF00762678 /* WebDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDataController.swift; sourceTree = "<group>"; };
+		A0F79A07240F0ABC00762678 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		A0F79A09240F0B3000762678 /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+		A0F79A0B240F0B7500762678 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A0F79A0E240F0C5800762678 /* ListaNegociosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaNegociosViewController.swift; sourceTree = "<group>"; };
+		A0F79A10240F0DF500762678 /* ListaCategoriasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCategoriasViewController.swift; sourceTree = "<group>"; };
+		A0F79A12240F0F8000762678 /* ListaProductosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaProductosViewController.swift; sourceTree = "<group>"; };
+		A0F79A14240F0FC600762678 /* CarritoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoViewController.swift; sourceTree = "<group>"; };
+		A0F79A18240F108B00762678 /* DatosContactoFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosContactoFormViewController.swift; sourceTree = "<group>"; };
+		A0F79A27240F126B00762678 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		A0F79A28240F126C00762678 /* imark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imark.png; sourceTree = "<group>"; };
+		A0F79A29240F126C00762678 /* logo-fastbuy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-fastbuy.png"; sourceTree = "<group>"; };
+		A0F79A2A240F126C00762678 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		A0F79A2F240F129700762678 /* shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shop.png; sourceTree = "<group>"; };
+		A0F79A30240F129700762678 /* serv-logo-google-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "serv-logo-google-plus.png"; sourceTree = "<group>"; };
+		A0F79A31240F129800762678 /* RifficFree-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RifficFree-Bold.ttf"; sourceTree = "<group>"; };
+		A0F79A32240F129800762678 /* serv-logo-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "serv-logo-facebook.png"; sourceTree = "<group>"; };
+		A0F79A37240FEAE900762678 /* OpcionLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpcionLoginViewController.swift; sourceTree = "<group>"; };
+		A0F79A39240FEF5200762678 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		A0F79A3B2410829800762678 /* FASTBUY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FASTBUY.png; path = "../../../../Archivos Fastbuy/FASTBUY.png"; sourceTree = "<group>"; };
+		A0F79A3C2410829900762678 /* GOOGLE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GOOGLE.png; path = "../../../../Archivos Fastbuy/GOOGLE.png"; sourceTree = "<group>"; };
+		A0F79A3D2410829B00762678 /* FACEBOOK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FACEBOOK.png; path = "../../../../Archivos Fastbuy/FACEBOOK.png"; sourceTree = "<group>"; };
+		A0F79A412411360600762678 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		A0F79A432411528400762678 /* IngresaNumeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngresaNumeroViewController.swift; sourceTree = "<group>"; };
+		A0F79A45241152EC00762678 /* NewUsuarioFastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUsuarioFastViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +98,7 @@
 		074AF0F523FD7F0B00EDF0E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				074AF0F423FD7F0B00EDF0E9 /* FastBuyIOS.app */,
+				074AF0F423FD7F0B00EDF0E9 /* Fast Buy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +106,48 @@
 		074AF0F623FD7F0B00EDF0E9 /* FastBuyIOS */ = {
 			isa = PBXGroup;
 			children = (
+				A0F79A1C240F110C00762678 /* Resources */,
 				074AF0F723FD7F0B00EDF0E9 /* AppDelegate.swift */,
-				074AF0F923FD7F0B00EDF0E9 /* ViewController.swift */,
-				A073F99824004D60007695FB /* CollectionViewCell.swift */,
 				074AF0FB23FD7F0B00EDF0E9 /* Main.storyboard */,
 				074AF0FE23FD7F0B00EDF0E9 /* Assets.xcassets */,
-				074AF10023FD7F0B00EDF0E9 /* LaunchScreen.storyboard */,
 				074AF10323FD7F0B00EDF0E9 /* Info.plist */,
+				A0F799FF240F08D800762678 /* Common.swift */,
+				A0F79A01240F097C00762678 /* GestorDeArchivos.swift */,
+				A0F79A03240F09C500762678 /* MediaCache.swift */,
+				A0F79A05240F09FF00762678 /* WebDataController.swift */,
+				A0F79A07240F0ABC00762678 /* MainNavigationController.swift */,
+				A0F79A09240F0B3000762678 /* InicioViewController.swift */,
+				A0F79A0B240F0B7500762678 /* LoginViewController.swift */,
+				A0F79A0E240F0C5800762678 /* ListaNegociosViewController.swift */,
+				A0F79A10240F0DF500762678 /* ListaCategoriasViewController.swift */,
+				A0F79A12240F0F8000762678 /* ListaProductosViewController.swift */,
+				A0F79A14240F0FC600762678 /* CarritoViewController.swift */,
+				A0F79A18240F108B00762678 /* DatosContactoFormViewController.swift */,
+				A0F79A37240FEAE900762678 /* OpcionLoginViewController.swift */,
+				A0F79A39240FEF5200762678 /* SplashViewController.swift */,
+				A0F79A412411360600762678 /* Reachability.swift */,
+				A0F79A432411528400762678 /* IngresaNumeroViewController.swift */,
+				A0F79A45241152EC00762678 /* NewUsuarioFastViewController.swift */,
 			);
 			path = FastBuyIOS;
+			sourceTree = "<group>";
+		};
+		A0F79A1C240F110C00762678 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0F79A3D2410829B00762678 /* FACEBOOK.png */,
+				A0F79A3B2410829800762678 /* FASTBUY.png */,
+				A0F79A3C2410829900762678 /* GOOGLE.png */,
+				A0F79A31240F129800762678 /* RifficFree-Bold.ttf */,
+				A0F79A32240F129800762678 /* serv-logo-facebook.png */,
+				A0F79A30240F129700762678 /* serv-logo-google-plus.png */,
+				A0F79A2F240F129700762678 /* shop.png */,
+				A0F79A2A240F126C00762678 /* back.png */,
+				A0F79A28240F126C00762678 /* imark.png */,
+				A0F79A27240F126B00762678 /* location.png */,
+				A0F79A29240F126C00762678 /* logo-fastbuy.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +167,7 @@
 			);
 			name = FastBuyIOS;
 			productName = FastBuyIOS;
-			productReference = 074AF0F423FD7F0B00EDF0E9 /* FastBuyIOS.app */;
+			productReference = 074AF0F423FD7F0B00EDF0E9 /* Fast Buy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,6 +182,7 @@
 				TargetAttributes = {
 					074AF0F323FD7F0B00EDF0E9 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9S53SWWJW9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,9 +210,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				074AF10223FD7F0B00EDF0E9 /* LaunchScreen.storyboard in Resources */,
+				A0F79A402410829D00762678 /* FACEBOOK.png in Resources */,
+				A0F79A2B240F126D00762678 /* location.png in Resources */,
+				A0F79A36240F129900762678 /* serv-logo-facebook.png in Resources */,
+				A0F79A3F2410829D00762678 /* GOOGLE.png in Resources */,
+				A0F79A2D240F126D00762678 /* logo-fastbuy.png in Resources */,
 				074AF0FF23FD7F0B00EDF0E9 /* Assets.xcassets in Resources */,
+				A0F79A2E240F126D00762678 /* back.png in Resources */,
+				A0F79A33240F129900762678 /* shop.png in Resources */,
+				A0F79A35240F129900762678 /* RifficFree-Bold.ttf in Resources */,
+				A0F79A34240F129900762678 /* serv-logo-google-plus.png in Resources */,
 				074AF0FD23FD7F0B00EDF0E9 /* Main.storyboard in Resources */,
+				A0F79A2C240F126D00762678 /* imark.png in Resources */,
+				A0F79A3E2410829D00762678 /* FASTBUY.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +233,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				074AF0FA23FD7F0B00EDF0E9 /* ViewController.swift in Sources */,
+				A0F79A11240F0DF500762678 /* ListaCategoriasViewController.swift in Sources */,
+				A0F79A15240F0FC600762678 /* CarritoViewController.swift in Sources */,
+				A0F79A0F240F0C5800762678 /* ListaNegociosViewController.swift in Sources */,
+				A0F79A08240F0ABC00762678 /* MainNavigationController.swift in Sources */,
+				A0F79A46241152ED00762678 /* NewUsuarioFastViewController.swift in Sources */,
+				A0F79A19240F108B00762678 /* DatosContactoFormViewController.swift in Sources */,
+				A0F79A00240F08D800762678 /* Common.swift in Sources */,
+				A0F79A0A240F0B3000762678 /* InicioViewController.swift in Sources */,
+				A0F79A02240F097C00762678 /* GestorDeArchivos.swift in Sources */,
+				A0F79A38240FEAE900762678 /* OpcionLoginViewController.swift in Sources */,
+				A0F79A3A240FEF5200762678 /* SplashViewController.swift in Sources */,
+				A0F79A442411528400762678 /* IngresaNumeroViewController.swift in Sources */,
+				A0F79A13240F0F8000762678 /* ListaProductosViewController.swift in Sources */,
+				A0F79A0C240F0B7500762678 /* LoginViewController.swift in Sources */,
 				074AF0F823FD7F0B00EDF0E9 /* AppDelegate.swift in Sources */,
-				A073F99924004D61007695FB /* CollectionViewCell.swift in Sources */,
+				A0F79A04240F09C500762678 /* MediaCache.swift in Sources */,
+				A0F79A422411360600762678 /* Reachability.swift in Sources */,
+				A0F79A06240F09FF00762678 /* WebDataController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,14 +263,6 @@
 				074AF0FC23FD7F0B00EDF0E9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		074AF10023FD7F0B00EDF0E9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				074AF10123FD7F0B00EDF0E9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,11 +385,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9S53SWWJW9;
 				INFOPLIST_FILE = FastBuyIOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = corpfastbuy.FastBuyIOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Fast Buy";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -297,11 +399,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9S53SWWJW9;
 				INFOPLIST_FILE = FastBuyIOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = corpfastbuy.FastBuyIOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Fast Buy";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
